@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: #f9cb77;
+    ;
+    ;
+}
+
+.title{
+    padding: 10px;
+    font-size: 46px;
+    background-color: rgb(247, 158, 103);
+}
+
+.container{
+    margin-top: 70px;
+    font-size: 26px;
+    margin-bottom: 540px;
+}
+
+.container-buttons{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contador{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+button{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 26px;
+    border-radius: 16px;
+    margin: 40px;
+    color: #FFFFFF;
+}
+
+#botonDecrementar{
+    background-color: #ff6433;
+    border: 3px solid #ff6433;
+
+}
+
+#botonDecrementar:hover {
+    border: 3px solid #872101;
+    color: white;
+}
+
+#botonIncrementar{
+    background-color: #37b717;
+    border: 3px solid #37b717;
+}
+
+#botonIncrementar:hover {
+    border: 3px solid #1e6f09;
+    color: white;
+}
