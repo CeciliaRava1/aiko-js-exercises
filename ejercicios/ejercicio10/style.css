@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: #f9cb77;
+    ;
+    ;
+}
+
+.title{
+    padding: 10px;
+    font-size: 46px;
+    background-color: rgb(247, 158, 103);
+}
+
+#inputValor{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-bottom: 2px solid rgb(247, 158, 103);
+    outline: none;
+}
+
+#inputPalabra:focus{
+    background-color: rgb(247, 158, 103);
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+button{
+    margin-top: 28px;
+    padding: 10px 20px;
+    border: 2px solid rgb(247, 158, 103);
+    font-size: 26px;
+}
+
+button:hover{
+    background-color: rgb(247, 158, 103);
+}
+
+#valorConvertido {
+    margin-top: 30px;
+    font-size: 20px;
+}
