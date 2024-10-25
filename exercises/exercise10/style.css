@@ -5,17 +5,15 @@
     text-align: center;
     font-family: "Kumbh Sans", sans-serif;
     background-color: #f9cb77;
-    ;
-    ;
 }
 
-.title{
+.title {
     padding: 10px;
     font-size: 46px;
     background-color: rgb(247, 158, 103);
 }
 
-#inputValor{
+#inputValue {
     margin-top: 10px;
     width: 200px;
     height: 50px;
@@ -25,11 +23,11 @@
     outline: none;
 }
 
-#inputPalabra:focus{
+#inputValue:focus {
     background-color: rgb(247, 158, 103);
 }
 
-.container{
+.container {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -37,24 +35,24 @@
     justify-content: center;
 }
 
-p{
+p {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-button{
+button {
     margin-top: 28px;
     padding: 10px 20px;
     border: 2px solid rgb(247, 158, 103);
     font-size: 26px;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(247, 158, 103);
 }
 
-#valorConvertido {
+#convertedValue {
     margin-top: 30px;
     font-size: 20px;
 }

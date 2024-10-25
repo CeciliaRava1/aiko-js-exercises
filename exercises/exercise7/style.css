@@ -5,8 +5,6 @@
     text-align: center;
     font-family: "Kumbh Sans", sans-serif;
     background-color: #f9cb77;
-    ;
-    ;
 }
 
 .title{
@@ -20,6 +18,7 @@ p{
     font-weight: 600;
     font-size: 26px;
 }
+
 .container{
     margin-top: 30px;
     display: flex;
@@ -34,34 +33,34 @@ button{
     font-size: 26px;
 }
 
-#botonRojo{
+#buttonRed{
     border: 2px solid #ff3c3c;
 }
 
-#botonRojo:hover{
+#buttonRed:hover{
     background-color: #ff3c3c;
 }
 
-#botonAmarillo{
+#buttonYellow{
     border: 2px solid #ffff3c;
 }
 
-#botonAmarillo:hover{
+#buttonYellow:hover{
     background-color: #ffff3c;
 }
 
-#botonVerde{
+#buttonGreen{
     border: 2px solid #5aff3c;
 }
 
-#botonVerde:hover{
-    background-color: #5aff3c
+#buttonGreen:hover{
+    background-color: #5aff3c;
 }
 
-#botonReiniciar{
+#buttonReset{
     border: 2px solid #878f87;
 }
 
-#botonReiniciar:hover{
+#buttonReset:hover{
     background-color: #878f87;
 }

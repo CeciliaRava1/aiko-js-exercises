@@ -5,8 +5,6 @@
     text-align: center;
     font-family: "Kumbh Sans", sans-serif;
     background-color: #f9cb77;
-    ;
-    ;
 }
 
 .title{
@@ -15,22 +13,21 @@
     background-color: rgb(247, 158, 103);
 }
 
-#inputPalabra{
+#inputText{
     margin-top: 10px;
-    width: 200px;
-    height: 50px;
-    font-size: 24px;
-    border: none;
-    border-bottom: 2px solid rgb(247, 158, 103);
+    width: 500px;
+    height: 100px;
+    font-size: 18px;
+    border: 2px solid rgb(247, 158, 103);
     outline: none;
 }
 
-#inputPalabra:focus{
+#inputText:focus{
     background-color: rgb(247, 158, 103);
 }
 
 .container{
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,7 +51,6 @@ button:hover{
     background-color: rgb(247, 158, 103);
 }
 
-#cantidadVocales {
-    margin-top: 30px;
-    font-size: 20px;
+#modifiedText{
+    margin: 60px 400px;
 }
